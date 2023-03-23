@@ -1,0 +1,12 @@
+{
+  "name": "CW_Output",
+  "keywords": "OLED, Serial logging",
+  "description": "Output can be sent to a mini OLED screen or to the Serial port for logging. This is controlled by flags.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/veggie2u/CW_Output.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}

@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For CW_Output
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Output	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+clear	KEYWORD2
+display	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
