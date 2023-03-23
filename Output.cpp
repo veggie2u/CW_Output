@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include <Wire.h>
 #include <GOFi2cOLED.h>
-#include "Output.h"
+#include <Output.h>
 
 Output::Output(bool serialOn, bool oledOn) {
   _serialOn = serialOn;
@@ -18,9 +18,9 @@ void Output::begin() {
     _GOFoled.setTextSize(1);
     _GOFoled.setTextColor(WHITE);
     _GOFoled.setCursor(0,0);
-    _GOFoled.
   }
 }
+
 void Output::print(String msg) {
   if (_serialOn) {
     Serial.print(msg);
